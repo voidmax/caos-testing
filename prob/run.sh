@@ -53,7 +53,7 @@ write_error() {
 }
 
 write_separator_line() {
-	echo -e "────────────────────────────"
+	echo -e "─────────────────────────"
 }
 
 write_separator_line
@@ -79,7 +79,7 @@ do
 	then
 		TIME=0$TIME
 	fi
-	TIME=${TIME:0:8}
+	TIME=${TIME:0:5}
 
 	correct=tests/$test.ans
 
